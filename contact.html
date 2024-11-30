@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./images/Logo.jpg.png" rel="icon" />
+    <link href="imgs/apple-touch-icon.png" rel="apple-touch-icon" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.8/countUp.min.js"></script>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contact-ALHANAA</title>
+
+
+
+  </head>
+  <body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container ">
+        <a class="navbar-brand fs-3 logo" href="index.html">AL-HANAA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars nav-icon btn__menu__open"></i>
+          <i class="fa-solid fa-xmark nav-icon btn__menu__close"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link p-0 active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0" href="#Collection" target="_self">Collection</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0" href="./Products.html" target="_blank">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="container-fluid contact-bg vh-100"></header>
+
+    <!-- ?======================= START FORM ====================== -->
+    <div class="contact-form">
+      <h3>Contact Us</h3>
+      <form action="mailto:omar.sarhan@alhanaaagri.com" method="post" enctype="text/plain">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button class="form-btn" type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <!-- ?======================= START FOOTER ====================== -->
+    <footer class="footer py-4 mt-5">
+      <div class="container d__flow-root">
+        <div class="copyright__box text-center">
+          <p class="copyright mb-2">© Copyright <span class="fw-bold">ALHANAA</span>. All Rights Reserved</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <a href="https://www.facebook.com/profile.php?id=100064835928360" class="my-links" target="_blank"><i class="fa-brands fa-facebook p p-2 my-icon"></i>
+                  <i class="fa-brands fa-twitter  p-2 my-icon"></i>
+                  <i class="fa-brands fa-instagram p-2 my-icon"></i>
+                  <i class="fa-brands fa-linkedin p-2 my-icon"></i>    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

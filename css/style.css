@@ -462,12 +462,12 @@ button[aria-expanded="true"] .btn__menu__close {
 }
 
 .content1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/IMG_2872.MP4);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-size: cover;
 }
 
 .content2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/IMG_2872.MP4);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-size: cover;
 }
 .video-background {

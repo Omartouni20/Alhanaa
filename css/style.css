@@ -149,6 +149,7 @@ html {
   background-color: var(--color-green);
 }
 
+
 .lead {
   font-weight: 300;
 }
@@ -810,8 +811,13 @@ button[aria-expanded="true"] .btn__menu__close {
 
 /* تحديد اللون الافتراضي للرابط قبل التمرير */
 .works__box .work__overlay a h6 {
-  color: white; /* تأكد من أن اللون الافتراضي هو الأبيض */
-  transition: color 0.3s ease; /* إضافة تأثير سلس لتغيير اللون */
+  color: white;
+  /*تأكدمنأناللونالافتراضيهوالأبيض*/transition: color 0.3s ease;
+   /* إضافة تأثير سلس لتغيير اللون */:;
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
 }
 
 .work__overlay h6 {
@@ -821,10 +827,10 @@ button[aria-expanded="true"] .btn__menu__close {
   transform: translateY(-15px);
   transition: all 0.5s;
   color: #eee;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
   -webkit-transform: translateY(-15px);
   -moz-transform: translateY(-15px);
   -ms-transform: translateY(-15px);
@@ -834,6 +840,10 @@ button[aria-expanded="true"] .btn__menu__close {
 .works__box:hover .work__overlay h6 {
   opacity: 1;
   transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
 }
 .works .modal {
   --bs-modal-width: 100%;
@@ -856,10 +866,10 @@ button[aria-expanded="true"] .btn__menu__close {
   opacity: 0.7;
   font-size: 20px;
   transition: 0.3s;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
 }
 .works .btn__model__close:hover {
   opacity: 1;
@@ -883,6 +893,10 @@ button[aria-expanded="true"] .btn__menu__close {
 .card__title a {
   color: var(--color-black);
   transition: var(--transition-05);
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
 }
 .blog .post__author:hover span {
   color: var(--color-blue);
@@ -989,6 +1003,14 @@ td img {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
 }
 
 /* تأثير لتوضيح التمرير */
@@ -999,13 +1021,25 @@ td img {
 @keyframes pulse {
   0% {
     transform: scale(1);
-  }
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
   50% {
     transform: scale(1.1);
-  }
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
   100% {
     transform: scale(1);
-  }
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
 }
 
 /* ?================== START  CONTACT =============== */
@@ -1020,6 +1054,10 @@ td img {
 .contact .btn__form {
   font-size: 1.2rem;
   transition: var(--transition-04);
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
 }
 .contact .btn__form:hover {
   color: var(--color-white);
@@ -1037,6 +1075,10 @@ td img {
   margin-inline: 15px;
   box-shadow: 0 0 0 4px var(--color-blue);
   transition: all var(--transition-05) ease;
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
 }
 .contact .ico-circle:hover {
   background-color: var(--color-blue);
@@ -1237,12 +1279,20 @@ p {
   from {
     transform: translateY(-150%);
     scale: 200% 1;
-  }
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
 
   to {
     transform: translateY(0%);
     scale: 100% 1;
-  }
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
 }
 .my-links {
   color: #fff;
@@ -1263,6 +1313,14 @@ p {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 300px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 .contact-form h3 {
   text-align: center;
@@ -1277,6 +1335,10 @@ p {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .contact-form button {
   width: 100%;
@@ -1287,6 +1349,10 @@ p {
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .contact-form button:hover {
   background-color: #0056b3;
